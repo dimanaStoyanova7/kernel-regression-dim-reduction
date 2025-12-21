@@ -57,12 +57,3 @@ All features are numeric and suitable for:
 
 - Source: Kaggle – Superconductor Dataset (munumbutt)
 - Original data derived from published superconductivity databases.
-
----
-
-## Next Steps
-
-1. Load the CSV file in the preprocessing notebook.
-2. Inspect dataset dimensions and column names.
-3. Identify the target column.
-4. Apply standardization and PCA.
