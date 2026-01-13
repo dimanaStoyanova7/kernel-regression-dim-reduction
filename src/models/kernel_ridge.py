@@ -50,5 +50,5 @@ class KernelRidge:
         -------
         Array of predictions
         """
-        K = self.kernel(self.X_train, X_test)
-        return K.T@self.alpha
+        K = self.kernel(X_test, self.X_train)
+        return K@self.alpha
